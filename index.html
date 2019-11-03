@@ -25,7 +25,8 @@
         <p>GENERATED PASSWORD</p>
         <div class="inside-container">
           <span id="result"></span>
-          <button class="btn" id="clipboard">
+          <span class="oncopy" id="oncopy"">Copied</span>
+          <button class="btn" id="copy">
             COPY
           </button>
         </div>
@@ -40,25 +41,26 @@
             id="length"
             min="4"
             max="20"
+            value="20"
           />
         </div>
         <div class="setting">
           <label>Include uppercase letters</label>
           <div>
-            <input class="checkboxes" type="checkbox" id="uppercase" />
+            <input class="checkboxes" type="checkbox" id="uppercase" checked />
           </div>
         </div>
         <div class="setting">
           <label>Include lowercase letters</label>
-          <input type="checkbox" id="lowercase" />
+          <input type="checkbox" id="lowercase" checked />
         </div>
         <div class="setting">
           <label>Include number</label>
-          <input type="checkbox" id="number" />
+          <input type="checkbox" id="number" checked />
         </div>
         <div class="setting">
           <label>Include symbols</label>
-          <input type="checkbox" id="symbols" />
+          <input type="checkbox" id="symbol" checked />
         </div>
       </div>
       <button class="gen-btn" id="generate">
