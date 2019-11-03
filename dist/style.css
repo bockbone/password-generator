@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #040f2d;
+}
+
+p {
+  font-family: "Barlow";
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #4e5a7f;
+}
+
+h2 {
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 0;
+}
+.body {
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  min-height: 100vh;
+}
+
+.container {
+  border: solid 2px #091642;
+  border-radius: 10px;
+  font-family: "Barlow";
+  font-weight: 500;
+  color: #fff;
+  width: 350px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.inside-container {
+  background-color: #091642;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.inside-container #result {
+  word-wrap: break-word;
+  max-width: calc(100%-40%);
+}
+
+.inside-container .btn {
+  font-size: 12px;
+  position: absolute;
+  top: 16px;
+  right: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #091642;
+  color: #4e5a7f;
+  font-family: "Barlow";
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.setting {
+  background-color: #091642;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gen-btn {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 155, 186, 1) 100%
+  );
+  font-family: "Barlow";
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.gen-btn:hover {
+  box-shadow: 0 0 10px #363636;
+  transition: ease-in-out 0.2s;
+}
+
+.gen-btn:focus {
+  outline: none;
+}
+
+.setting input.pass-length {
+  width: 60px;
+  border: solid 2px #4e5a7f;
+  border-radius: 5px;
+  background-color: #091642;
+  color: #fff;
+  padding: 5px;
+  font-family: "Barlow";
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+input[type="checkbox"] {
+  background-color: orange;
+}
+
+.oncopy {
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  z-index: 1;
+  display: none;
+  opacity: 0.5;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "Password Generator using Javascript",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bockbone/password-generator.git"
+  },
+  "author": "Hafizul Arif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bockbone/password-generator/issues"
+  },
+  "homepage": "https://bockbone.github.io/password-generator/",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
