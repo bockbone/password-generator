@@ -1,5 +1,7 @@
 # Password Generator using Javascript
 
+Checkout the application here : 
+
 ### Installation
 
 Install live-server from npm.
