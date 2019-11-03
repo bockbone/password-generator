@@ -1,6 +1,6 @@
 # Password Generator using Javascript
 
-Checkout the application here : 
+Checkout the application here : https://bockbone.github.io/password-generator/
 
 ### Installation
 
